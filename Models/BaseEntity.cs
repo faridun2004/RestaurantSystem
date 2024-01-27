@@ -2,7 +2,7 @@
 {
     public class BaseEntity
     {
-        public Guid Id { get; }
+        public  Guid Id { get; }
 
         public BaseEntity()
         {
