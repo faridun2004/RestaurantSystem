@@ -6,7 +6,7 @@ namespace RestaurantSystem.Services
     {
         IEnumerable<MenuItem> GetAll();
         MenuItem GetById(Guid id);
-        string Create(MenuItem worker);
+        string Create(MenuItem menuItem);
         string Update(Guid id, MenuItem item);
         string Delete(Guid id);
     }
